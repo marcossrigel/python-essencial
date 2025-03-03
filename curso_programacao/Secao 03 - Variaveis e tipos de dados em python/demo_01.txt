@@ -1,0 +1,65 @@
+# Tipo Numérico !
+
+num = 1_000_000
+print(num)
+
+print(dir(num))
+num = 42
+print(num.__add__(8))
+
+42
+print(42)
+
+num = 42
+print(num)
+
+print(5 + 4)
+
+print(7 - 2)
+
+print(3 * 5)
+
+print(5 / 2)
+
+int(5/2)
+
+print(5 // 2)
+
+print(4 % 2) # Número Par !
+print(5 % 2) # Número ímpar !
+print(7 % 2)
+print(8 % 2)
+print(3 ** 3) # Elevado !
+print(2 ** 8)
+print(2 ** 63)
+
+print(1000)
+print(1000000)
+print(1_000_000)
+print(1_000_000_000)
+
+print(num + 1)
+
+num += 1
+print(num)
+
+num = num + 1
+print(num)
+
+num -= 1
+print(num)
+
+num *= 2
+print(num)
+
+num = num * 2
+print(num)
+
+num /= 2
+print(num)
+
+num //= 2 
+print(num)
+
+print(type(num))
+print(type(23))
