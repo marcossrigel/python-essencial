@@ -1,0 +1,33 @@
+# Tipo Booleano
+# Algebra Booleana, criada por George Boole
+# 2 constantes, Verdadeiro ou Falso
+
+# True -> Verdadeiro
+# False -> Falso
+
+# OBS: Sempre com a inicial maiúscula
+
+# Errado: true, false
+# Certo: True, False
+
+ativo = False
+print(ativo)
+
+logado = False
+
+# Negação (not):
+print(not ativo)
+
+# OU (or):
+print(True or False)
+print(False or False)
+print(True or True)
+
+print(ativo or logado)
+
+# E (and)
+print(True and True)
+print(True and False)
+print(False and False)
+
+
