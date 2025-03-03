@@ -1,0 +1,46 @@
+# Tipo Float ou Tipo Real, decimal (casas decimais)
+# OBS: O Separador de casas decimais na programação é o ponto e não a vírgula !
+
+# Errado Ex: valor = 1,44
+# Certo Ex: valor = 1.44
+
+valor = 1, 44 # Resulta em uma túpla
+print(valor)
+print(type(valor))
+
+valor = 1.44
+print(valor)
+print(type(valor))
+
+# É possivel fazer dupla atribuição
+valor1, valor2 = 1, 44
+print(type(valor1))
+print(type(valor2))
+
+# Podemos converter um float para um int -> casting
+res = int(valor)
+print(res)
+print(type(res))
+
+# Podemos trabalhar com números complexos
+print(type(5j))
+variavel = 5j
+variavel **= 2
+print(variavel)
+
+# Perdemos precisão ao converter um float para um int
+num = 1_000_000
+print(num)
+print(float(num))
+
+salario = 2.56
+salario2 = 3.67
+total = salario + salario2
+print(total)
+
+total2 = int(salario) + int(salario2)
+print(total2)
+
+total -= total2
+print(total)
+
